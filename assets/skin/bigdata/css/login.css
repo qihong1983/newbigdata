@@ -1,0 +1,136 @@
+@font-face {
+    font-family: common;
+    src: url(http://d.easemob.com/iconfont.eot);
+    src: url(http://d.easemob.com/iconfont.eot?#iefix) format('embedded-opentype'),url(http://d.easemob.com/iconfont.woff) format('woff'),url(http://d.easemob.com/iconfont.ttf) format('truetype'),url(http://d.easemob.com/iconfont.svg#bigdata) format('svg')
+}
+
+
+body {
+	background-color: #f2f2f2;
+}
+
+a:hover,
+a:focus {
+  color: #e56045;
+  text-decoration: underline;
+}
+.navbar-brand {
+	font-family: common;
+}
+
+.navbar-brand b {
+	font-size:37px;
+	margin-right:10px;
+}
+
+.navbar-brand em {
+	font-size:37px;
+	font-style: normal;
+	font-weight: initial;
+}
+
+.navbar.bg-dark .nav > li > a:hover,
+.navbar.bg-dark .nav > li > a:focus {
+  color: rgba(255, 255, 255, 0.9);
+
+  background-color: #1b1b1b;
+}
+
+.admin-form .switch-primary > input:checked + label {
+  background: #e56045;
+  border-color: #e56045;
+}
+
+.admin-form .btn-primary {
+	background-color: #e56045;
+}
+
+.admin-form .btn-primary:hover,
+.admin-form .btn-primary:focus {
+  background-color: #ffb9b2;
+  border-color: #ffb9b2;
+}
+
+body.external-page.external-alt .login-links a.active {
+  color: #e56045;
+}
+
+.admin-form.theme-info .gui-input:hover,
+.admin-form.theme-info .gui-textarea:hover,
+.admin-form.theme-info .select > select:hover,
+.admin-form.theme-info .select-multiple select:hover,
+.admin-form.theme-info .gui-input:hover ~ .input-footer,
+.admin-form.theme-info .file .gui-file:hover + .gui-input,
+.admin-form.theme-info .gui-textarea:hover ~ .input-footer {
+  border-color: #e56045;
+}
+
+.admin-form.theme-info .gui-input:focus,
+.admin-form.theme-info .gui-textarea:focus,
+.admin-form.theme-info .select > select:focus,
+.admin-form.theme-info .select-multiple select:focus {
+  border-color: #e56045;
+  color: #e56045;
+}
+
+.admin-form.theme-info .gui-input:focus ~ .field-icon i,
+.admin-form.theme-info .gui-textarea:focus ~ .field-icon i {
+  color: #e56045;
+}
+
+.contentLogo {
+/*    max-width: 214px;
+    height: 48px;
+    font-family: common;
+    font-size: 68px;
+    color: #e56045;
+    font-weight: normal;*/
+
+    margin: 0 auto;
+    font-size: 68px;
+    width: 100%;
+    text-align: center;
+    font-family: bigdata;
+    color:#e56045;
+}
+
+.conLogo {
+    margin: 0 auto;
+    font-size: 68px;
+    width: 100%;
+    text-align: center;
+    font-family: bigdata;
+    color:#e56045;
+    float: none;
+}
+
+.content_logo_a:hover {
+	text-decoration:none;
+}
+.content_logo_a:active {
+	text-decoration:none;
+}
+.content_logo_a:focus {
+	text-decoration:none;
+}
+
+.admin-form .switch > label {
+	background-color: #e5e5e5;
+}
+
+#content {
+  padding: 15px 8px 40px 11px;
+}
+/* content padding on large resolutions */
+@media (min-width: 1100px) {
+  #content {
+    padding: 15px 20px 50px 21px;
+  }
+}
+
+.admin-form .panel-footer {
+    padding: 12px 13px;
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    background: #f2f2f2;
+}
